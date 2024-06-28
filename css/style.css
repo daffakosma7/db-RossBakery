@@ -1,0 +1,105 @@
+.warna1 {
+    background-color: #db9c3e;
+}
+
+.warna2 {
+    background-color: #f1be71fe;;
+}
+
+.warna3 {
+    background-color: #FFDEAB;
+}
+
+.warna4 {
+    background-color: #f1c685;
+}
+
+.warna5 {
+    color: #704c27;
+}
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/roti-banyak-2.jpg');
+    height: 80vh;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.highlighted-kategori {
+    height: 250px;
+}
+
+.kategori-roti-asin {
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/roti-abon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-roti-manis {
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/roti-coklat-baru.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-pastry {
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Cromboloni.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: #eec373;
+}
+
+.text-harga{
+    font-size: 20px;
+    color: #f09102;
+    font-weight: bold;
+}
+
+.image-box{
+    height: 250px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subscribe {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.content-subscribe a {
+    color: #fff;
+}
+
+.banner2 { 
+    height: 45vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/roti-banyak-2.jpg');
+    background-position: 50% 35%;
+    background-size: cover; 
+    background-position: center;
+}
+
+.produk-terkait-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;    
+}
+
+.fixed-top {
+    padding-top: 1px;
+}
+
+
+
+

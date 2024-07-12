@@ -18,15 +18,35 @@
     color: #704c27;
 }
 
+
 .banner{
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/roti-banyak-2.jpg');
-    height: 80vh;
+    height: 90vh;
     background-size: cover; 
     background-position: center; 
 }
 
+.banner .display-4{
+    color: white;
+    font-weight: bolder;
+}
+
+.banner .display-5 {
+    font-weight: 200;
+    font-style: oblique;
+}
+
+.custom-font {
+    color: white;
+    font-size: 20px;
+}
+
 .highlighted-kategori {
     height: 250px;
+}
+
+.produk-title {
+    font-family: "Times New Roman", Times, serif;
 }
 
 .kategori-roti-asin {
@@ -96,10 +116,18 @@
     object-position: center;    
 }
 
-.fixed-top {
-    padding-top: 1px;
+.custom-margin-top-tentang-kami {
+    margin-top: 100px; 
 }
 
+.custom-margin-top-produk {
+    margin-top: 100px;
+}
+
+
+.fixed-top {
+    padding-top: 0;
+}
 
 
 

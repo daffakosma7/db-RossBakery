@@ -9,7 +9,8 @@
 
 <style>
 .navbar {
-    border-top: 15px solid #db9c3e; /* Warna coklat (#8B4513) bisa disesuaikan sesuai keinginan */
+    border-bottom: 5px solid #db9c3e; /* Warna coklat (#8B4513) bisa disesuaikan sesuai keinginan */
+    background-color: #fff; /* Warna latar belakang coklat */
 }
 
 .btn-outline-light.warna5 {
@@ -26,11 +27,20 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark ">
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <img src="image/logo-ross-bakery.png" alt="Logo" width="50" height="45" class="d-inline-block align-text-top">
+            <img src="image/logo-ross-bakery.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
         </a>
+        <div class="col-md-5 offset-md-1 ">
+                    <form method="get" action="produk.php">
+                        <div class="input-group input-group-lg my-2 ">
+                             <input type="text" class="form-control" placeholder="Cari Apa" 
+                             aria-label="Recipient's username" aria-describedby="basic-addon2" name="keyword">
+                            <button type="submit" class="btn btn-light warna2">Telusuri</button>
+                        </div>
+                    </form>
+                </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,16 +56,10 @@
                     <a class="nav-link fw-bold warna5" href="produk.php">Produk</a>   
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link warna5" href="keranjang.php">
+                    <a class="nav-link  fw-bold warna5" href="cart.php">
                         <i class="fas fa-shopping-cart"></i> Keranjang
                     </a>
                 </li>
-                <li class="nav-item me-4">
-                    <a class="btn btn-outline-light warna5" href="login.php">Masuk</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-light warna5" href="signup.php">Daftar</a>
-                </li>   
             </ul>
         </div>
     </div>

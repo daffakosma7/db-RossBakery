@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost","root","","ross_bakery");
+    $con = mysqli_connect("localhost","root","","db-ross_bakery");
     
     // Check connection
     if (mysqli_connect_errno()) {
